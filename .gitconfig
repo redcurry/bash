@@ -1,0 +1,11 @@
+[color]
+	diff = auto
+[user]
+	name = Carlos Anderson
+	email = carlosjanderson@gmail.com
+[core]
+	editor = vim
+[push]
+	default = simple
+[alias]
+    lg = log --oneline --graph --decorate --all

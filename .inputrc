@@ -1,0 +1,15 @@
+set editing-mode vi
+
+$if mode=vi
+  set keymap vi-command
+  "ee": kill-whole-line
+  "e": vi-delete-to
+  "d": backward-char
+  "t": previous-history
+  "h": next-history
+  "n": forward-char
+  "gg": beginning-of-history
+  "G": end-of-history
+  set keymap vi-insert
+  "\C-l": clear-screen
+$endif
