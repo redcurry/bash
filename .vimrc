@@ -6,7 +6,7 @@ no n l
 no e d
 
 " Syntax color
-colorscheme carlos
+colorscheme pacificc
 syntax on
 
 set bs=indent,eol,start
