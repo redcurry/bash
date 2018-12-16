@@ -9,3 +9,4 @@
 	default = simple
 [alias]
     lg = log --oneline --graph --decorate --all
+    lgd = log --graph --all --decorate --oneline --pretty=format:'%C(yellow)%h %C(green)%ad%C(auto)%d %s' --date=short --date-order
